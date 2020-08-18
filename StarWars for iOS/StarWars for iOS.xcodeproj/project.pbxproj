@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B61288B2384077000331477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61288A2384077000331477 /* AppDelegate.swift */; };
+		2B61288D2384077000331477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61288C2384077000331477 /* SceneDelegate.swift */; };
+		2B61288F2384077000331477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61288E2384077000331477 /* ViewController.swift */; };
+		2B6128922384077000331477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6128902384077000331477 /* Main.storyboard */; };
+		2B6128942384077300331477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6128932384077300331477 /* Assets.xcassets */; };
+		2B6128972384077300331477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6128952384077300331477 /* LaunchScreen.storyboard */; };
+		2B6128AC2384081800331477 /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128AB2384081800331477 /* GamePlay.swift */; };
+		2B6128AD2384082600331477 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61289F238407F100331477 /* Space.swift */; };
+		2B6128AE2384082600331477 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A3238407F100331477 /* Weapons.swift */; };
+		2B6128AF2384082600331477 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A4238407F100331477 /* Fraction.swift */; };
+		2B6128B02384082600331477 /* CoordinatSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A5238407F100331477 /* CoordinatSystem.swift */; };
+		2B6128B12384082600331477 /* Radar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A6238407F100331477 /* Radar.swift */; };
+		2B6128B22384082600331477 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128AA238407F100331477 /* Starships.swift */; };
+		2B6128B32384082B00331477 /* StarshipsEmpire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A8238407F100331477 /* StarshipsEmpire.swift */; };
+		2B6128B42384082B00331477 /* WeaponsEmpire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A9238407F100331477 /* WeaponsEmpire.swift */; };
+		2B6128B52384083000331477 /* WeaponsJedi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A1238407F100331477 /* WeaponsJedi.swift */; };
+		2B6128B62384083000331477 /* StartshipsJedi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6128A2238407F100331477 /* StartshipsJedi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B6128872384077000331477 /* StarWars for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61288A2384077000331477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B61288C2384077000331477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B61288E2384077000331477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B6128912384077000331477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B6128932384077300331477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B6128962384077300331477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B6128982384077300331477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B61289F238407F100331477 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		2B6128A1238407F100331477 /* WeaponsJedi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsJedi.swift; sourceTree = "<group>"; };
+		2B6128A2238407F100331477 /* StartshipsJedi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartshipsJedi.swift; sourceTree = "<group>"; };
+		2B6128A3238407F100331477 /* Weapons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapons.swift; sourceTree = "<group>"; };
+		2B6128A4238407F100331477 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		2B6128A5238407F100331477 /* CoordinatSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatSystem.swift; sourceTree = "<group>"; };
+		2B6128A6238407F100331477 /* Radar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar.swift; sourceTree = "<group>"; };
+		2B6128A8238407F100331477 /* StarshipsEmpire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsEmpire.swift; sourceTree = "<group>"; };
+		2B6128A9238407F100331477 /* WeaponsEmpire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsEmpire.swift; sourceTree = "<group>"; };
+		2B6128AA238407F100331477 /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		2B6128AB2384081800331477 /* GamePlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6128842384077000331477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B61287E2384077000331477 = {
+			isa = PBXGroup;
+			children = (
+				2B6128892384077000331477 /* StarWars for iOS */,
+				2B6128882384077000331477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B6128882384077000331477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6128872384077000331477 /* StarWars for iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6128892384077000331477 /* StarWars for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B6128AB2384081800331477 /* GamePlay.swift */,
+				2B61289E238407F100331477 /* Universe Models */,
+				2B61288A2384077000331477 /* AppDelegate.swift */,
+				2B61288C2384077000331477 /* SceneDelegate.swift */,
+				2B61288E2384077000331477 /* ViewController.swift */,
+				2B6128902384077000331477 /* Main.storyboard */,
+				2B6128932384077300331477 /* Assets.xcassets */,
+				2B6128952384077300331477 /* LaunchScreen.storyboard */,
+				2B6128982384077300331477 /* Info.plist */,
+			);
+			path = "StarWars for iOS";
+			sourceTree = "<group>";
+		};
+		2B61289E238407F100331477 /* Universe Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B6128A7238407F100331477 /* Empire */,
+				2B6128A0238407F100331477 /* Jedi */,
+				2B61289F238407F100331477 /* Space.swift */,
+				2B6128A3238407F100331477 /* Weapons.swift */,
+				2B6128A4238407F100331477 /* Fraction.swift */,
+				2B6128A5238407F100331477 /* CoordinatSystem.swift */,
+				2B6128A6238407F100331477 /* Radar.swift */,
+				2B6128AA238407F100331477 /* Starships.swift */,
+			);
+			path = "Universe Models";
+			sourceTree = "<group>";
+		};
+		2B6128A0238407F100331477 /* Jedi */ = {
+			isa = PBXGroup;
+			children = (
+				2B6128A2238407F100331477 /* StartshipsJedi.swift */,
+				2B6128A1238407F100331477 /* WeaponsJedi.swift */,
+			);
+			path = Jedi;
+			sourceTree = "<group>";
+		};
+		2B6128A7238407F100331477 /* Empire */ = {
+			isa = PBXGroup;
+			children = (
+				2B6128A8238407F100331477 /* StarshipsEmpire.swift */,
+				2B6128A9238407F100331477 /* WeaponsEmpire.swift */,
+			);
+			path = Empire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6128862384077000331477 /* StarWars for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61289B2384077300331477 /* Build configuration list for PBXNativeTarget "StarWars for iOS" */;
+			buildPhases = (
+				2B6128832384077000331477 /* Sources */,
+				2B6128842384077000331477 /* Frameworks */,
+				2B6128852384077000331477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarWars for iOS";
+			productName = "StarWars for iOS";
+			productReference = 2B6128872384077000331477 /* StarWars for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B61287F2384077000331477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Aleksey Rochev (Netology)";
+				TargetAttributes = {
+					2B6128862384077000331477 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B6128822384077000331477 /* Build configuration list for PBXProject "StarWars for iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B61287E2384077000331477;
+			productRefGroup = 2B6128882384077000331477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6128862384077000331477 /* StarWars for iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6128852384077000331477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6128972384077300331477 /* LaunchScreen.storyboard in Resources */,
+				2B6128942384077300331477 /* Assets.xcassets in Resources */,
+				2B6128922384077000331477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6128832384077000331477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6128B52384083000331477 /* WeaponsJedi.swift in Sources */,
+				2B6128B02384082600331477 /* CoordinatSystem.swift in Sources */,
+				2B6128B42384082B00331477 /* WeaponsEmpire.swift in Sources */,
+				2B6128AD2384082600331477 /* Space.swift in Sources */,
+				2B6128B32384082B00331477 /* StarshipsEmpire.swift in Sources */,
+				2B61288F2384077000331477 /* ViewController.swift in Sources */,
+				2B6128B12384082600331477 /* Radar.swift in Sources */,
+				2B6128AC2384081800331477 /* GamePlay.swift in Sources */,
+				2B6128AF2384082600331477 /* Fraction.swift in Sources */,
+				2B6128AE2384082600331477 /* Weapons.swift in Sources */,
+				2B6128B22384082600331477 /* Starships.swift in Sources */,
+				2B61288B2384077000331477 /* AppDelegate.swift in Sources */,
+				2B6128B62384083000331477 /* StartshipsJedi.swift in Sources */,
+				2B61288D2384077000331477 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B6128902384077000331477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6128912384077000331477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B6128952384077300331477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6128962384077300331477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B6128992384077300331477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B61289A2384077300331477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B61289C2384077300331477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Netology.StarWars-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B61289D2384077300331477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StarWars for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Netology.StarWars-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6128822384077000331477 /* Build configuration list for PBXProject "StarWars for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6128992384077300331477 /* Debug */,
+				2B61289A2384077300331477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B61289B2384077300331477 /* Build configuration list for PBXNativeTarget "StarWars for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61289C2384077300331477 /* Debug */,
+				2B61289D2384077300331477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B61287F2384077000331477 /* Project object */;
+}
